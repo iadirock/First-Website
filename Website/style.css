@@ -1,0 +1,178 @@
+body{
+padding:0px;
+margin:0px;
+background-image:url(img/blackbg.jpg);
+background-size:cover; 	
+}
+
+
+#wraper{border:1px solid white;
+width:969px;
+min-height:1000px;
+margin:auto;
+margin-bottom:20px;
+}
+
+#header{
+height:360px;
+width:969px;
+background-image:url(img/header.jpg);
+background-size:cover;
+margin-bottom:20px;	
+}
+
+#navi{
+height:84px;
+}
+
+.navi-in{
+float: right;
+width:150px;
+height:45px;
+text-align:center;
+margin-left:10px;
+margin-right:20px;
+background-image:url(img/navi.jpg);
+background-size:100% 100%;
+background-color:#4CAF50;
+}
+
+.navi-in a{
+line-height:45px;
+color:white;
+text-decoration:none;
+font-family:"arial";
+}
+
+.navi-in a:hover{
+color:red;
+}
+
+#profile {border:1px solid white;
+width:170px;
+height:170px;
+float:left;
+margin-left:40px;
+margin-top:-128px;
+background-image:url(img/profile.jpg);
+background-size:100% 100%;
+}
+
+
+#content {
+min-height:400px;
+margin-top:-4%;
+background-image:url(img/grey.jpg);
+background-size:cover;
+margin-bottom: -170px;
+}
+
+.content-in{
+min-height:100px;
+padding:20px;
+}
+
+.content-in h1{
+color:black;
+}
+
+.content-in p {
+width:80%;
+line-height:35px;
+color:white;
+text-align:justify;
+font-weight:600;
+font-family:"arial";
+font-size:18px;
+}
+
+#footer {
+height:30px;
+background-image:url(img/footer.jpg);
+margin-top:5px;
+}
+
+#footer p{
+margin-bottom:-130px;
+text-align:center;
+line-height:30px;
+color:white;
+}
+
+#footer a{
+color:#FFD700;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    height: 45px;
+    width: 150px;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.HOME {
+    position: relative;
+    display: inline-block;
+}
+
+.HOME-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.HOME-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.HOME-content a:hover {background-color: #f1f1f1}
+
+.HOME:hover .HOME-content {
+    display: block;
+}
+
+.HOME:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.con{
+	width: 900px;
+	height: 310px;
+	border: 5px solid white;
+	margin: 50px auto;
+	overflow: hidden;
+	position: relative;
+	margin-top: 250px;
+}
+.img{
+				
+	position: absolute;
+	width: 900px;
+	height: 310px;
+	animation: mm 40s infinite;
+	opacity: 0;
+}
+
+@keyframes mm{
+			10%{opacity:1}
+			45%{opacity:0}
+}
+
+img:nth-child(0){animation-delay: 0s}
+img:nth-child(1){animation-delay: 4s}
+img:nth-child(2){animation-delay: 8s}
+img:nth-child(3){animation-delay: 12s}
+img:nth-child(4){animation-delay: 16s}
+img:nth-child(5){animation-delay: 20s}
+img:nth-child(6){animation-delay: 24s}
+img:nth-child(7){animation-delay: 28s}
+img:nth-child(8){animation-delay: 32s}
+img:nth-child(9){animation-delay: 36s}			
